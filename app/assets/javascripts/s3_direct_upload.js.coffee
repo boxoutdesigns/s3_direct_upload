@@ -167,6 +167,9 @@ $.fn.S3Uploader = (options) ->
   @path = (new_path) ->
     settings.path = new_path
 
+  @progress_bar_target = (new_target) ->
+    settings.progress_bar_target = new_target
+
   @additional_data = (new_data) ->
     settings.additional_data = new_data
 
